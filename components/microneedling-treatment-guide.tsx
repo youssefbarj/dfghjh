@@ -651,7 +651,7 @@ export default function LipBlushTreatmentGuide() {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.95 }}
                   transition={{ duration: 0.5 }}
-                  className="relative w-full h-80 sm:h-96 md:h-[42rem] bg-gradient-to-br from-blue-50 to-violet-50 rounded-2xl overflow-hidden shadow-lg"
+                  className="relative w-full aspect-video bg-gradient-to-br from-blue-50 to-violet-50 rounded-2xl overflow-hidden shadow-lg"
                 >
                   {currentStepData.video ? (
                     <div className="relative w-full h-full">
