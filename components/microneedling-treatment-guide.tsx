@@ -662,6 +662,7 @@ export default function LipBlushTreatmentGuide() {
                         frameBorder="0"
                         allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
                         allowFullScreen
+                        loading="eager"
                         onLoad={(e) => {
                           const target = e.target as HTMLIFrameElement;
                           target.parentElement?.querySelector('.loading-spinner')?.classList.add('hidden');
