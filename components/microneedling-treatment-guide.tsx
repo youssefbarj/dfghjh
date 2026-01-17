@@ -21,218 +21,182 @@ const treatmentSteps: TreatmentStep[] = [
   {
     id: 1,
     title: "Marquage des colonnes philtrales",
-    duration: "45s",
+    duration: "48s",
     image: "/images/step 1.png",
-    video: "/videos/step 1.mov",
-    illustration: "/illustrations/step 1.png",
-    description: "Avec des mains gantées, utilisez un crayon cosmétique pour dessiner des lignes verticales parallèles le long des crêtes du philtrum (la zone entre le nez et la lèvre supérieure). Cette étape initiale est cruciale pour établir les points de repère centraux qui garantiront la symétrie de l'arc de Cupidon.",
+    video: "https://player.vimeo.com/video/1155571172?h=7f2b0a4b63&badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Avec votre crayon blanc et des mains gantées, commencez par tracer les lignes du philtrum pour aligner le centre du visage. Définissez ensuite les pointes de l'arc de Cupidon et reliez les contours jusqu'aux commissures externes. Terminez par la courbe de la lèvre inférieure : cet enchaînement précis vous permet de verrouiller une forme parfaitement symétrique avant de passer à la pigmentation.",
     benefits: ["Points de repère centraux", "Symétrie garantie", "Base précise"],
   },
   {
     id: 2,
-    title: "Définition de l'arc de Cupidon",
-    duration: "30s",
+    title: "Finitions du Tracé et Installation de la Cartouche",
+    duration: "25s",
     image: "/images/step 2.png",
-    video: "/videos/step 2.mov",
-    illustration: "/illustrations/step 2.png",
-    description: "En vous basant sur les lignes directrices tracées à l'étape précédente, dessinez la forme en 'V' de l'arc de Cupidon. La précision de cette étape définit le point central et le plus proéminent de la lèvre supérieure. Assurez-vous d'obtenir des courbes nettes et symétriques.",
+    video: "https://player.vimeo.com/video/1155571341?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Une fois votre marquage terminé, affinez les contours à l'aide d'une micro-brosse pour garantir une netteté absolue avant de piquer. Passez ensuite à la préparation hygiénique : déballez votre cartouche stérile sans toucher l'aiguille, insérez-la dans le dermographe et effectuez un quart de tour pour la verrouiller en toute sécurité avant la mise en marche.",
     benefits: ["Forme en V précise", "Courbes symétriques", "Point central défini"],
   },
   {
     id: 3,
-    title: "Traçage du contour de la lèvre supérieure",
-    duration: "40s",
+    title: "La Prise de Pigment",
+    duration: "30s",
     image: "/images/step 3.png",
-    video: "/videos/step 3.mov",
-    illustration: "/illustrations/step 3.png",
-    description: "Continuez à dessiner le contour de la lèvre supérieure en partant des pointes de l'arc de Cupidon jusqu'aux commissures des lèvres. Maintenez une pression constante sur le crayon pour une ligne uniforme et claire. Ce tracé servira de guide précis pour la pigmentation.",
+    video: "https://player.vimeo.com/video/1155576169?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Remplissez votre godet (ou bague) de pigment. Mettez le dermogrape en marche, puis plongez la pointe de l'aiguille dans l'encre à la verticale. Laissez le pigment remonter naturellement dans le réservoir de la cartouche par capillarité, en veillant à ne pas heurter le fond du récipient pour préserver le piquant de l'aiguille.",
     benefits: ["Ligne uniforme", "Guide précis", "Contour défini"],
   },
   {
     id: 4,
-    title: "Traçage du contour de la lèvre inférieure",
-    duration: "40s",
+    title: "Test de Débit et Premier Trait",
+    duration: "30s",
     image: "/images/step 4.jpeg",
-    illustration: "/illustrations/step 4.png",
-    description: "Dessinez le contour de la lèvre inférieure en veillant à créer une forme équilibrée et harmonieuse par rapport à la lèvre supérieure. L'objectif est de définir une forme de lèvres pleine et symétrique qui respecte la morphologie du mannequin.",
+    video: "https://player.vimeo.com/video/1155571308?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Avant de vous lancer dans le tracé complet, effectuez toujours un test de fonctionnement sur une petite section du contour. Posez l'aiguille à 90° et réalisez un court segment : cela vous permet de valider instantanément que le pigment s'implante bien et que votre vitesse de main est synchronisée avec la vitesse de la machine.",
     benefits: ["Forme équilibrée", "Symétrie parfaite", "Harmonie générale"],
   },
   {
     id: 5,
-    title: "Vérification du tracé final",
-    duration: "1min",
+    title: "Le Tracé du Contour Supérieur",
+    duration: "26s",
     image: "/images/step 5.jpeg",
-    illustration: "/illustrations/step 5.png",
-    description: "Examinez attentivement le contour complet des lèvres. Prenez du recul pour évaluer la symétrie générale, l'équilibre et les proportions. C'est la dernière opportunité de faire des ajustements au crayon avant de commencer la procédure de pigmentation.",
+    video: "https://player.vimeo.com/video/1155581409?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Partez de la pointe de l'arc de Cupidon et descendez vers la commissure avec une extrême lenteur. Votre geste doit être chirurgical : ne balayez pas, mais tirez une ligne continue en maintenant une profondeur constante. C'est cette régularité qui garantira un contour net et défini du premier coup, sans avoir besoin de repasser.",
     benefits: ["Symétrie vérifiée", "Proportions correctes", "Ajustements possibles"],
   },
   {
     id: 6,
-    title: "Déballage de la cartouche d'aiguille stérile",
-    duration: "15s",
+    title: "Le Tracé du Contour Inférieur",
+    duration: "54s",
     image: "/images/step 6.png",
-    video: "/videos/step 6.mov",
-    illustration: "/illustrations/step 6.png",
-    description: "Ouvrez l'emballage d'une cartouche d'aiguille à usage unique. Il est impératif de vérifier que l'emballage est bien scellé et que la date de péremption n'est pas dépassée. La manipulation de tout équipement stérile doit toujours se faire avec des gants pour maintenir l'asepsie.",
+    video: "https://player.vimeo.com/video/1155571107?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Tracez la courbe de la lèvre inférieure pour finaliser le cadre de la bouche. Assurez une connexion fluide avec les commissures en maintenant une profondeur constante tout le long du marquage. Ce contour est essentiel pour \"asseoir\" la forme et donner l'effet de plénitude visuelle nécessaire à une bouche harmonieuse.",
     benefits: ["Stérilité assurée", "Sécurité garantie", "Équipement vérifié"],
   },
   {
     id: 7,
-    title: "Insertion de la cartouche dans le dermographe",
-    duration: "20s",
+    title: "Nettoyage et Vérification du Tracé",
+    duration: "9s",
     image: "/images/step 7.png",
-    video: "/videos/step 7.mov",
-    illustration: "/illustrations/step 7.png",
-    description: "Insérez la cartouche d'aiguille dans le dermographe (la machine de maquillage permanent). Assurez-vous qu'elle est correctement enclenchée, généralement par un mécanisme de rotation ou de 'clic', pour garantir qu'elle ne bougera pas pendant la procédure.",
+    video: "https://player.vimeo.com/video/1155571277?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Passez une lingette humide sur l'ensemble de la bouche pour retirer l'excédent de pigment et effacer les traits de construction blancs. Ce nettoyage est indispensable pour révéler la ligne réelle de votre tatouage et vérifier instantanément la netteté de votre contour avant de passer au remplissage.",
     benefits: ["Fixation sécurisée", "Stabilité assurée", "Mécanisme vérifié"],
   },
   {
     id: 8,
-    title: "Ajustement de la sortie de l'aiguille",
-    duration: "15s",
+    title: "Renforcement et Sécurisation du Contour",
+    duration: "9s",
     image: "/images/step 8.png",
-    video: "/videos/step 8.mov",
-    illustration: "/illustrations/step 8.png",
-    description: "Réglez la profondeur de l'aiguille en tournant la bague d'ajustement du dermographe. La longueur de l'aiguille qui sort de la cartouche doit être adaptée à la technique de lip blush et à la zone à pigmenter. Un réglage correct est essentiel pour déposer le pigment à la bonne profondeur dans le derme.",
+    video: "https://player.vimeo.com/video/1155571277?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Repassez méticuleusement sur l'ensemble de votre tracé pour le \"verrouiller\". Ce second passage sert à densifier la ligne sans l'élargir : votre objectif est de sécuriser le contour pour qu'il ne s'efface pas lorsque vous commencerez le remplissage. Gardez la même lenteur et la même profondeur pour obtenir une bordure nette et indélébile.",
     benefits: ["Profondeur optimale", "Technique adaptée", "Dépôt précis"],
   },
   {
     id: 9,
-    title: "Test du dermographe et du mouvement de l'aiguille",
-    duration: "20s",
+    title: "Validation de la Rétention du Contour",
+    duration: "31s",
     image: "/images/step 9.jpeg",
-    illustration: "/illustrations/step 9.png",
-    description: "Allumez le dermographe pour vérifier que l'aiguille se déplace de manière fluide et constante. Cette vérification rapide permet de s'assurer que l'appareil fonctionne correctement avant de le charger en pigment et de commencer à travailler.",
+    video: "https://player.vimeo.com/video/1155571195?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Nettoyez fermement la zone pour évaluer la solidité de votre tracé après le renforcement. Le pigment doit être incrusté de manière homogène et la ligne doit rester nette même après le passage de la lingette. C'est votre \"crash test\" : si le trait s'efface ou paraît pointillé, votre piquage manquait de profondeur ou de lenteur.",
     benefits: ["Mouvement fluide", "Fonctionnement vérifié", "Performance optimale"],
   },
   {
     id: 10,
-    title: "Chargement du pigment sur l'aiguille",
-    duration: "15s",
+    title: "Changement de Cartouche : Passage au Remplissage",
+    duration: "23s",
     image: "/images/step 10.jpeg",
-    illustration: "/illustrations/step 10.png",
-    description: "Trempez la pointe de la cartouche, avec l'aiguille en mouvement, dans une bague à pigment remplie de la couleur choisie. Laissez la cartouche aspirer une petite quantité de pigment. Évitez de surcharger la cartouche pour permettre une application propre et contrôlée.",
+    video: "https://player.vimeo.com/video/1155584621?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Le contour étant sécurisé, retirez l'aiguille de traçage (liner) de votre appareil. Déballez stérilement votre nouvelle cartouche destinée au remplissage (souvent une configuration plus large). Insérez-la et verrouillez-la fermement : ce changement d'outil est impératif pour passer du travail de précision au travail de mise en couleur de la chair des lèvres.",
     benefits: ["Chargement optimal", "Application contrôlée", "Couleur uniforme"],
   },
   {
     id: 11,
-    title: "Pigmentation du contour des lèvres",
-    duration: "1min 15s",
+    title: "Initiation à la Technique de Remplissage",
+    duration: "1min 20s",
     image: "/images/step 11.png",
-    video: "/videos/step 11.mov",
-    illustration: "/illustrations/step 11.png",
-    description: "Commencez la pigmentation en suivant méticuleusement le tracé au crayon. Tenez le dermographe à un angle d'environ 90 degrés par rapport à la surface du silicone. Utilisez votre autre main pour étirer légèrement la peau synthétique, ce qui permet une insertion plus douce de l'aiguille et une ligne plus nette. Avancez avec un mouvement lent et régulier pour créer une ligne de contour continue et bien définie.",
+    video: "https://player.vimeo.com/video/1155571152?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Débutez le remplissage par l'arc de Cupidon en adoptant un mouvement de balayage court et régulier (souvent appelé \"pendulaire\"). Saturez la zone progressivement en chevauchant vos traits pour éviter les manques, tout en veillant à ne jamais dépasser la bordure que vous avez tracée. Gardez une pression constante pour obtenir une couleur homogène dès le premier passage.",
     benefits: ["Contour précis", "Ligne continue", "Définition nette"],
   },
   {
     id: 12,
-    title: "Nettoyage et renforcement du contour",
-    duration: "1min 50s",
+    title: "Remplissage de la Lèvre Supérieure",
+    duration: "1min 2s",
     image: "/images/step 12.png",
-    video: "/videos/step 12.mov",
-    illustration: "/illustrations/step 12.png",
-    description: "Après le premier passage, nettoyez délicatement la zone avec une lingette propre pour enlever l'excès de pigment et évaluer la saturation de la ligne. Appliquez une solution de soin ou un anesthésiant secondaire si nécessaire. Repassez sur le contour pour renforcer la couleur et assurer une définition parfaite avant de procéder au remplissage.",
+    video: "https://player.vimeo.com/video/1155571259?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Commencez la mise en couleur de la lèvre supérieure en utilisant un mouvement de balayage pendulaire. Travaillez par petites sections progressives en chevauchant vos passages pour obtenir une saturation homogène. Maintenez une tension ferme de la peau et veillez à ne jamais dépasser votre ligne de contour \"barrière\" lors des allers-retours.",
     benefits: ["Saturation évaluée", "Couleur renforcée", "Définition parfaite"],
   },
   {
     id: 13,
-    title: "Vérification du contour pigmenté",
-    duration: "20s",
+    title: "Travail de Précision des Commissures",
+    duration: "39s",
     image: "/images/step 13.png",
-    video: "/videos/step 13.mov",
-    illustration: "/illustrations/step 13.png",
-    description: "Une fois le contour entièrement pigmenté et nettoyé, prenez un moment pour évaluer le résultat. Le contour doit être net, symétrique et uniforme. Cette étape de validation est essentielle avant de commencer la phase de remplissage (shading).",
+    video: "https://player.vimeo.com/video/1155571319?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Réduisez votre geste pour travailler la zone charnière des commissures. Connectez la lèvre supérieure et inférieure avec des mouvements courts et précis vers l'intérieur de la bouche. Soyez vigilante : la peau y est très fine, il faut saturer la couleur sans traumatiser le pli pour éviter toute migration de pigment.",
     benefits: ["Contour net", "Symétrie validée", "Uniformité vérifiée"],
   },
   {
     id: 14,
-    title: "Préparation du dermographe pour le remplissage",
-    duration: "25s",
+    title: "Finalisation de la Lèvre Supérieure",
+    duration: "16s",
     image: "/images/step 14.png",
-    video: "/videos/step 14.mov",
-    illustration: "/illustrations/step 14.png",
-    description: "Pour la phase de remplissage, une nouvelle cartouche d'aiguille stérile est souvent nécessaire (parfois d'une configuration différente de celle utilisée pour le contour). Répétez les étapes d'hygiène en ouvrant l'emballage stérile et en insérant fermement la nouvelle cartouche dans le dermographe.",
+    video: "https://player.vimeo.com/video/1155588298?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Achevez la mise en couleur de la lèvre supérieure en saturant le corps de la lèvre jusqu'à la zone de transition (wet line). Assurez-vous de chevaucher légèrement vos zones précédentes pour éviter les \"trous\" de couleur ou les démarcations. Une saturation uniforme et fluide à cette étape est primordiale pour garantir un résultat guéri impeccable.",
     benefits: ["Nouvelle cartouche", "Configuration adaptée", "Hygiène maintenue"],
   },
   {
     id: 15,
-    title: "Initiation à la technique de pixellisation (Shading)",
-    duration: "30s",
+    title: "Remplissage de la Lèvre Inférieure",
+    duration: "51s",
     image: "/images/step 15.png",
-    video: "/videos/step 15.mov",
-    illustration: "/illustrations/step 15.png",
-    description: "Chargez la nouvelle aiguille en pigment. Commencez le remplissage en partant du contour et en allant vers l'intérieur de la lèvre. Utilisez un mouvement de balancier rapide et léger (pendulaire) pour déposer le pigment sous forme de petits points (pixels). Cette technique permet d'obtenir un effet poudré et naturel, évitant ainsi un aspect trop opaque.",
+    video: "https://player.vimeo.com/video/1155571222?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Reproduisez le mouvement de balayage sur la lèvre inférieure en maintenant une tension parfaite de la peau. Cette zone étant souvent plus charnue, travaillez avec régularité pour saturer le pigment au cœur de la lèvre, là où la lumière se reflète naturellement. Assurez-vous que la transition avec le contour reste imperceptible.",
     benefits: ["Effet poudré", "Aspect naturel", "Technique pixellisée"],
   },
   {
     id: 16,
-    title: "Remplissage de la lèvre par pixellisation",
-    duration: "3min 30s",
+    title: "Finalisation de la Lèvre Inférieure",
+    duration: "32s",
     image: "/images/step 16.png",
-    video: "/videos/step 16.mov",
-    illustration: "/illustrations/step 16.png",
-    description: "Continuez le mouvement de pixellisation sur toute la surface de la lèvre, en travaillant par petites sections. Superposez vos passages pour créer une couleur homogène et sans démarcation. La clé est la consistance du mouvement et de la pression pour garantir une saturation uniforme de la couleur.",
+    video: "https://player.vimeo.com/video/1155571237?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Terminez le remplissage en travaillant le côté opposé de la lèvre inférieure. Votre priorité est la symétrie de la saturation : la couleur doit être aussi dense à gauche qu'à droite. Veillez à fondre parfaitement la jonction au centre pour qu'aucune démarcation ne soit visible une fois la cicatrisation terminée.",
     benefits: ["Couleur homogène", "Saturation uniforme", "Mouvement constant"],
   },
   {
     id: 17,
-    title: "Travail de précision sur les commissures",
-    duration: "30s",
+    title: "Le Masque de Pigment (The Soak)",
+    duration: "22s",
     image: "/images/step 17.png",
-    video: "/videos/step 17.mov",
-    illustration: "/illustrations/step 17.png",
-    description: "Les commissures des lèvres sont des zones délicates. Adaptez l'angle de votre dermographe et l'orientation de vos mouvements pour pigmenter correctement ces zones arrondies. Une bonne technique d'étirement de la peau synthétique est particulièrement importante ici pour un résultat net.",
+    video: "https://player.vimeo.com/video/1155571060?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Pour clore la séance, appliquez une couche généreuse de pigment pur sur l'ensemble de la bouche à l'aide d'une micro-brosse. Laissez poser ce masque quelques minutes. Bien que le tatouage soit terminé, cette étape permet de saturer les dernières micro-ouvertures de la peau, d'apaiser les tissus et de préparer les lèvres pour la \"révélation\" finale lors du nettoyage ultime.",
     benefits: ["Zones délicates", "Angle adapté", "Résultat net"],
   },
   {
     id: 18,
-    title: "Superposition des couches pour la saturation de la couleur",
-    duration: "3min 30s",
+    title: "Mise sous Occlusion",
+    duration: "10s",
     image: "/images/step 18.png",
-    video: "/videos/step 18.mov",
-    illustration: "/illustrations/step 18.png",
-    description: "Le lip blush se construit en plusieurs couches. Après un premier passage complet, nettoyez la lèvre et évaluez la couleur. Effectuez des passages supplémentaires pour intensifier la couleur jusqu'à obtenir la saturation désirée. Chaque couche ajoute de la profondeur et de la richesse au résultat final.",
+    video: "https://player.vimeo.com/video/1155571133?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Recouvrez immédiatement le masque de pigment avec un film plastique étirable. Lissez bien le film pour chasser les bulles d'air et assurer un contact hermétique. Cette occlusion empêche le pigment de sécher et favorise son absorption finale par les tissus (effet de macération contrôlée) durant le temps de pause.",
     benefits: ["Couches multiples", "Profondeur créée", "Richesse de couleur"],
   },
   {
     id: 19,
-    title: "Application du masque de pigment",
-    duration: "15s",
+    title: "Le Nettoyage Final et la Révélation",
+    duration: "40s",
     image: "/images/step 19.png",
-    video: "/videos/step 19.mov",
-    illustration: "/illustrations/step 19.png",
-    description: "Une fois le remplissage terminé, appliquez une couche généreuse de pigment sur toute la surface des lèvres et laissez poser quelques minutes. Ce 'masque' permet au pigment de pénétrer davantage dans les micro-perforations, maximisant ainsi la rétention de la couleur.",
+    video: "https://player.vimeo.com/video/1155571291?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Retirez le film protecteur et procédez au nettoyage final pour enlever tout le surplus de pigment laissé par le masque. C'est l'étape de la \"révélation\" : essuyez sans crainte pour découvrir la couleur réelle et la saturation de votre travail. Terminez en appliquant une touche de baume ou de gloss apaisant pour hydrater les lèvres instantanément et sublimer le résultat pour la photographie.",
     benefits: ["Pénétration optimisée", "Rétention maximale", "Fixation du pigment"],
   },
   {
     id: 20,
-    title: "Nettoyage final et révélation du résultat",
-    duration: "20s",
+    title: "Inspection et Nettoyage de Finition",
+    duration: "22s",
     image: "/images/step 20.png",
-    video: "/videos/step 20.mov",
-    illustration: "/illustrations/step 20.png",
-    description: "Après le temps de pose, retirez délicatement le masque de pigment avec une lingette propre et humide. Cette dernière étape révèle la couleur finale et la saturation obtenue. Le résultat doit être une couleur de lèvres uniforme et bien définie.",
+    video: "https://player.vimeo.com/video/1155590411?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
+    description: "Une fois le surplus retiré, passez une lingette propre pour parfaire le nettoyage du contour de la bouche et de la peau environnante. C'est l'étape de vérification ultime : la zone doit être nette, sans bavure, prête pour la découverte par la cliente et la prise de vue photographique.",
     benefits: ["Couleur révélée", "Saturation finale", "Résultat uniforme"],
-  },
-  {
-    id: 21,
-    title: "Nettoyage approfondi de la zone de travail",
-    duration: "30s",
-    image: "/images/step 21.png",
-    video: "/videos/step 21.mov",
-    illustration: "/illustrations/step 21.png",
-    description: "Utilisez une lingette propre, potentiellement imbibée d'une solution nettoyante douce, pour essuyer soigneusement toute la zone autour des lèvres. L'objectif est d'éliminer toute trace de pigment sur la peau en silicone afin d'isoler visuellement le travail effectué et d'apprécier la netteté du contour. Un travail propre est le reflet du professionnalisme.",
-    benefits: ["Zone propre", "Contour isolé", "Professionnalisme"],
-  },
-  {
-    id: 22,
-    title: "Présentation finale du travail",
-    duration: "20s",
-    image: "/images/step 22.png",
-    video: "/videos/step 22.mov",
-    illustration: "/illustrations/step 22.png",
-    description: "Effectuez un dernier passage délicat avec une lingette propre pour parfaire le nettoyage et vous assurer que la surface est impeccable. Cette étape finale met en valeur le résultat, en s'assurant qu'aucune particule ou résidu ne vienne distraire l'œil. Le travail est maintenant prêt à être photographié pour votre portfolio ou présenté pour évaluation.",
-    benefits: ["Surface impeccable", "Résultat valorisé", "Prêt pour évaluation"],
   },
 ]
 
@@ -244,6 +208,7 @@ export default function LipBlushTreatmentGuide() {
   const [showMobileDetails, setShowMobileDetails] = useState(false)
   const [showFullScreenVideo, setShowFullScreenVideo] = useState(false)
   const [showFullScreenImage, setShowFullScreenImage] = useState(false)
+  const [zoomedImageSrc, setZoomedImageSrc] = useState<string | null>(null)
 
   useEffect(() => {
     let interval: NodeJS.Timeout
@@ -279,6 +244,7 @@ export default function LipBlushTreatmentGuide() {
     setShowMobileDetails(false)
     setShowFullScreenVideo(false)
     setShowFullScreenImage(false)
+    setZoomedImageSrc(null)
   }
 
   const handleStepClick = (stepIndex: number) => {
@@ -289,6 +255,7 @@ export default function LipBlushTreatmentGuide() {
     setShowMobileDetails(false)
     setShowFullScreenVideo(false)
     setShowFullScreenImage(false)
+    setZoomedImageSrc(null)
   }
 
   const handlePrevious = () => {
@@ -300,6 +267,7 @@ export default function LipBlushTreatmentGuide() {
       setShowMobileDetails(false)
       setShowFullScreenVideo(false)
       setShowFullScreenImage(false)
+      setZoomedImageSrc(null)
     }
   }
 
@@ -312,10 +280,13 @@ export default function LipBlushTreatmentGuide() {
       setShowMobileDetails(false)
       setShowFullScreenVideo(false)
       setShowFullScreenImage(false)
+      setZoomedImageSrc(null)
     }
   }
 
-  const handleImageZoom = (imageSrc: string) => {
+  const handleImageZoom = (imageSrc?: string) => {
+    if (!imageSrc) return
+    setZoomedImageSrc(imageSrc)
     setShowFullScreenImage(true)
   }
 
@@ -399,7 +370,7 @@ export default function LipBlushTreatmentGuide() {
         className="flex gap-2 md:gap-3 mt-6 flex-wrap justify-center"
       >
         <div className="bg-green-500 text-white px-3 py-1 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-bold">
-          22/22 Étapes
+          20/20 Étapes
         </div>
         <div className="bg-blue-500 text-white px-3 py-1 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-bold">
           20 Minutes
@@ -477,7 +448,7 @@ export default function LipBlushTreatmentGuide() {
               <div className="flex flex-wrap gap-2 text-sm font-quicksand text-gray-600">
                 <span>Pratique sur mannequin silicone</span>
                 <span className="hidden sm:inline">•</span>
-                <span>22 étapes essentielles</span>
+                <span>20 étapes essentielles</span>
                 <span className="hidden sm:inline">•</span>
                 <span>Technique professionnelle</span>
                 <span className="hidden sm:inline">•</span>
@@ -626,7 +597,7 @@ export default function LipBlushTreatmentGuide() {
         {/* Main Content Area - Side by Side */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4 p-2 md:p-4">
           {/* Left Side - Text Content with Illustration Above (Hidden on mobile, visible on md and up) */}
-          <div className="md:col-span-3 hidden md:flex flex-col justify-center">
+          <div className="md:col-span-4 hidden md:flex flex-col justify-center">
             {/* Illustration Above Text Content */}
             {currentStepData.illustration && (
               <motion.div
@@ -634,19 +605,17 @@ export default function LipBlushTreatmentGuide() {
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="bg-white rounded-2xl p-3 md:p-4 shadow-lg mb-3 cursor-pointer hover:shadow-lg transition-shadow"
+                className="relative w-full aspect-video rounded-xl overflow-hidden cursor-pointer mb-3 bg-white shadow-lg"
                 onClick={() => handleImageZoom(currentStepData.illustration)}
               >
-                <div className="relative w-full h-32 md:h-40 rounded-xl overflow-hidden shadow-md"
-                >
-                  <Image
-                    src={currentStepData.illustration}
-                    alt={`${currentStepData.title} illustration`}
-                    fill
-                    style={{ objectFit: "cover" }}
-                    className="hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
+                <Image
+                  src={currentStepData.illustration}
+                  alt={`${currentStepData.title} illustration`}
+                  fill
+                  style={{ objectFit: "contain" }}
+                  className="hover:scale-105 transition-transform duration-300"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
               </motion.div>
             )}
 
@@ -673,7 +642,7 @@ export default function LipBlushTreatmentGuide() {
           </div>
 
           {/* Right Side - Main Video/Image Content (Order changed for mobile) */}
-          <div className="md:col-span-9 order-first md:order-none">
+          <div className="md:col-span-8 order-first md:order-none">
             <div className="relative">
               <AnimatePresence mode="wait">
                 <motion.div
@@ -682,38 +651,34 @@ export default function LipBlushTreatmentGuide() {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.95 }}
                   transition={{ duration: 0.5 }}
-                  className="relative w-full h-80 sm:h-96 md:h-[36rem] bg-gradient-to-br from-blue-50 to-violet-50 rounded-2xl overflow-hidden shadow-lg"
+                  className="relative w-full h-80 sm:h-96 md:h-[42rem] bg-gradient-to-br from-blue-50 to-violet-50 rounded-2xl overflow-hidden shadow-lg"
                 >
                   {currentStepData.video ? (
-                    <video
-                      key={currentStepData.video}
-                      className="w-full h-full object-contain"
-                      autoPlay={true}
-                      loop={true}
-                      muted={true}
-                      playsInline={true}
-                      controls={false}
-                    >
-                      <source src={currentStepData.video} type="video/quicktime" />
-                      <source src={currentStepData.video} type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </video>
-                  ) : currentStepData.image ? (
-                    <div
-                      className="w-full h-full cursor-pointer hover:opacity-90 transition-opacity"
-                      onClick={() => handleImageZoom(currentStepData.image)}
-                    >
-                      <Image
-                        src={currentStepData.image || "/placeholder.svg"}
-                        alt={currentStepData.title}
-                        fill
-                        style={{ objectFit: "contain" }}
-                        priority
+                    <div className="relative w-full h-full">
+                      <iframe
+                        key={currentStepData.video}
+                        className="w-full h-full"
+                        src={currentStepData.video}
+                        frameBorder="0"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                        allowFullScreen
+                        onLoad={(e) => {
+                          const target = e.target as HTMLIFrameElement;
+                          target.parentElement?.querySelector('.loading-spinner')?.classList.add('hidden');
+                        }}
                       />
+                      <div className="loading-spinner absolute inset-0 flex items-center justify-center bg-gradient-to-br from-blue-50 to-violet-50">
+                        <Image
+                          src="/loading-spinner.png"
+                          alt="Loading..."
+                          width={50}
+                          height={50}
+                          className="animate-spin"
+                        />
+                      </div>
                     </div>
                   ) : (
-                    <div className="w-full h-full flex items-center justify-center text-gray-400">
-                      <span>Vidéo non disponible</span>
+                    <div className="w-full h-full flex items-center justify-center">
                     </div>
                   )}
                 </motion.div>
@@ -731,7 +696,7 @@ export default function LipBlushTreatmentGuide() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 p-4"
-              onClick={() => setShowFullScreenImage(false)}
+              onClick={() => {setShowFullScreenImage(false); setZoomedImageSrc(null);} }
             >
               <motion.div
                 initial={{ scale: 0.8 }}
@@ -741,13 +706,13 @@ export default function LipBlushTreatmentGuide() {
                 onClick={(e) => e.stopPropagation()}
               >
                 <button
-                  onClick={() => setShowFullScreenImage(false)}
+                  onClick={() => {setShowFullScreenImage(false); setZoomedImageSrc(null);} }
                   className="absolute -top-12 right-0 text-white hover:text-gray-300 transition-colors duration-200"
                 >
                   <X size={32} />
                 </button>
                 <Image
-                  src={currentStepData.image || "/placeholder.svg"}
+                  src={zoomedImageSrc || currentStepData.image || "/placeholder.svg"}
                   alt={currentStepData.title}
                   width={800}
                   height={600}

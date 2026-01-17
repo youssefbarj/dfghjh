@@ -1,4 +1,5 @@
 import type React from "react"
+import Script from "next/script"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
@@ -19,6 +20,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {process.env.NODE_ENV === "development" && (
+          <Script
+            src="//unpkg.com/react-grab/dist/index.global.js"
+            crossOrigin="anonymous"
+            strategy="beforeInteractive"
+          />
+        )}
         <link
           href="https://fonts.googleapis.com/css2?family=LT+Saeada:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
