@@ -165,77 +165,77 @@ const InfoCard = ({ title, content, bgColor }: { title: string; content: string;
 export default function MicroneedlingFlowchart() {
   return (
     <div className="w-full max-w-4xl">
-      <Step title="ACTION MÉCANIQUE" subtitle="Micro-perforations de l'épiderme et du derme" colorScheme="primary">
+      <Step title="MECHANICAL ACTION" subtitle="Micro-perforations of the epidermis and dermis" colorScheme="primary">
         <div className="grid md:grid-cols-2 gap-6">
           <InfoCard
-            title="Le processus"
-            content="Création de micro-canaux dans la peau à l'aide d'aiguilles fines"
+            title="The process"
+            content="Creation of micro-channels in the skin using fine needles"
             bgColor="#BFE4E4"
           />
-          <InfoCard title="Profondeur" content="Variable selon la zone traitée (0.5mm à 2.5mm)" bgColor="#A7C7E7" />
+          <InfoCard title="Depth" content="Variable depending on the treated area (0.5mm to 2.5mm)" bgColor="#A7C7E7" />
         </div>
       </Step>
 
-      <Step title="RÉACTION DE LA PEAU (AUTO-RÉPARATION)" colorScheme="secondary">
+      <Step title="SKIN REACTION (SELF-REPAIR)" colorScheme="secondary">
         <div className="grid md:grid-cols-2 gap-6">
           <InfoCard
-            title="Stimulation du collagène et de l'élastine"
-            content="Déclenche la production naturelle de collagène et d'élastine pour réparer les micro-lésions"
+            title="Stimulation of collagen and elastin"
+            content="Triggers natural production of collagen and elastin to repair micro-lesions"
             bgColor="#F9D2D9"
           />
           <InfoCard
-            title="Activation du renouvellement cellulaire"
-            content="Accélère le processus de régénération de la peau pour une meilleure texture"
+            title="Activation of cellular renewal"
+            content="Accelerates the skin regeneration process for better texture"
             bgColor="#FFA4B6"
           />
         </div>
       </Step>
 
-      <Step title="ABSORPTION DES ACTIFS (SÉRUM)" colorScheme="tertiary">
+      <Step title="ACTIVE INGREDIENT ABSORPTION (SERUM)" colorScheme="tertiary">
         <div className="grid md:grid-cols-2 gap-6">
           <InfoCard
-            title="Pénétration profonde du sérum adapté à la peau"
-            content="Les micro-canaux permettent une absorption jusqu'à 80% plus efficace des principes actifs"
+            title="Deep penetration of skin-appropriate serum"
+            content="Micro-channels allow up to 80% more efficient absorption of active ingredients"
             bgColor="#C3B1E1"
           />
           <InfoCard
-            title="Actions ciblées selon le besoin"
-            content="Sérums spécifiques pour l'acné, les tâches, l'hydratation, etc."
+            title="Targeted actions according to need"
+            content="Specific serums for acne, spots, hydration, etc."
             bgColor="#F9D2D9"
           />
         </div>
       </Step>
 
-      <Step title="RÉSULTATS PROGRESSIFS" colorScheme="quaternary">
+      <Step title="PROGRESSIVE RESULTS" colorScheme="quaternary">
         <div className="grid md:grid-cols-2 gap-6">
           <InfoCard
-            title="Teint plus lumineux et homogène"
-            content="Amélioration visible de la texture et de l'éclat de la peau"
+            title="Brighter and more even complexion"
+            content="Visible improvement in skin texture and radiance"
             bgColor="#BFE4E4"
           />
           <InfoCard
-            title="Diminution des imperfections"
-            content="Réduction de l'acné, des tâches et des pores dilatés"
+            title="Reduction of imperfections"
+            content="Reduction of acne, spots, and enlarged pores"
             bgColor="#A7C7E7"
           />
         </div>
       </Step>
 
-      <Step title="OPTION : LUMINOTHÉRAPIE EN FIN DE SOIN" colorScheme="quinary" isLast={true}>
+      <Step title="OPTION: LIGHT THERAPY AT THE END OF TREATMENT" colorScheme="quinary" isLast={true}>
         <div className="grid md:grid-cols-3 gap-6">
           <InfoCard
-            title="Cicatrices et collagène"
-            content="Lumière rouge (630-660nm) pour stimuler davantage la production de collagène"
+            title="Scars and collagen"
+            content="Red light (630-660nm) to further stimulate collagen production"
             bgColor="#C3B1E1"
           />
           <InfoCard
-            title="Acné"
-            content="Lumière bleue (415-430nm) pour ses propriétés antibactériennes"
+            title="Acne"
+            content="Blue light (415-430nm) for its antibacterial properties"
             bgColor="#BFE4E4"
           />
           <InfoCard
-            title="Tâches pigmentaires"
-            content="Lumière jaune (585-595nm) pour réduire l'hyperpigmentation"
+            title="Pigmentation spots"
+            content="Yellow light (585-595nm) to reduce hyperpigmentation"
             bgColor="#FFA4B6"
           />
         </div>

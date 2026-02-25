@@ -110,93 +110,93 @@ const treatmentSteps: TreatmentStep[] = [
   },
   {
     id: 11,
-    title: "Initiation à la Technique de Remplissage",
+    title: "Introduction to the Filling Technique",
     duration: "1min 20s",
     image: "/images/step 11.png",
     video: "https://player.vimeo.com/video/1155571152?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
-    description: "Débutez le remplissage par l'arc de Cupidon en adoptant un mouvement de balayage court et régulier (souvent appelé \"pendulaire\"). Saturez la zone progressivement en chevauchant vos traits pour éviter les manques, tout en veillant à ne jamais dépasser la bordure que vous avez tracée. Gardez une pression constante pour obtenir une couleur homogène dès le premier passage.",
-    benefits: ["Contour précis", "Ligne continue", "Définition nette"],
+    description: "Begin filling at the Cupid's bow using a short, regular sweeping motion (often called \"pendulum\"). Gradually saturate the area by overlapping your strokes to avoid gaps, while ensuring you never exceed the border you've traced. Maintain constant pressure to achieve a uniform color from the first pass.",
+    benefits: ["Precise contour", "Continuous line", "Sharp definition"],
   },
   {
     id: 12,
-    title: "Remplissage de la Lèvre Supérieure",
+    title: "Upper Lip Filling",
     duration: "1min 2s",
     image: "/images/step 12.png",
     video: "https://player.vimeo.com/video/1155571259?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
-    description: "Commencez la mise en couleur de la lèvre supérieure en utilisant un mouvement de balayage pendulaire. Travaillez par petites sections progressives en chevauchant vos passages pour obtenir une saturation homogène. Maintenez une tension ferme de la peau et veillez à ne jamais dépasser votre ligne de contour \"barrière\" lors des allers-retours.",
-    benefits: ["Saturation évaluée", "Couleur renforcée", "Définition parfaite"],
+    description: "Begin coloring the upper lip using a pendulum sweeping motion. Work in small progressive sections by overlapping your passes to achieve homogeneous saturation. Maintain firm skin tension and ensure you never exceed your \"barrier\" contour line during back-and-forth movements.",
+    benefits: ["Saturation evaluated", "Color reinforced", "Perfect definition"],
   },
   {
     id: 13,
-    title: "Travail de Précision des Commissures",
+    title: "Precision Work on the Lip Corners",
     duration: "39s",
     image: "/images/step 13.png",
     video: "https://player.vimeo.com/video/1155571319?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
-    description: "Réduisez votre geste pour travailler la zone charnière des commissures. Connectez la lèvre supérieure et inférieure avec des mouvements courts et précis vers l'intérieur de la bouche. Soyez vigilante : la peau y est très fine, il faut saturer la couleur sans traumatiser le pli pour éviter toute migration de pigment.",
-    benefits: ["Contour net", "Symétrie validée", "Uniformité vérifiée"],
+    description: "Reduce your movement to work on the hinge area of the lip corners. Connect the upper and lower lip with short, precise movements towards the inside of the mouth. Be vigilant: the skin here is very thin, you need to saturate the color without traumatizing the fold to avoid any pigment migration.",
+    benefits: ["Sharp contour", "Symmetry validated", "Uniformity verified"],
   },
   {
     id: 14,
-    title: "Finalisation de la Lèvre Supérieure",
+    title: "Upper Lip Finalization",
     duration: "16s",
     image: "/images/step 14.png",
     video: "https://player.vimeo.com/video/1155588298?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
-    description: "Achevez la mise en couleur de la lèvre supérieure en saturant le corps de la lèvre jusqu'à la zone de transition (wet line). Assurez-vous de chevaucher légèrement vos zones précédentes pour éviter les \"trous\" de couleur ou les démarcations. Une saturation uniforme et fluide à cette étape est primordiale pour garantir un résultat guéri impeccable.",
-    benefits: ["Nouvelle cartouche", "Configuration adaptée", "Hygiène maintenue"],
+    description: "Complete the coloring of the upper lip by saturating the body of the lip up to the transition area (wet line). Ensure you slightly overlap your previous areas to avoid color \"holes\" or demarcations. Uniform and smooth saturation at this stage is crucial to guarantee an impeccable healed result.",
+    benefits: ["New cartridge", "Adapted configuration", "Hygiene maintained"],
   },
   {
     id: 15,
-    title: "Remplissage de la Lèvre Inférieure",
+    title: "Lower Lip Filling",
     duration: "51s",
     image: "/images/step 15.png",
     video: "https://player.vimeo.com/video/1155571222?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
-    description: "Reproduisez le mouvement de balayage sur la lèvre inférieure en maintenant une tension parfaite de la peau. Cette zone étant souvent plus charnue, travaillez avec régularité pour saturer le pigment au cœur de la lèvre, là où la lumière se reflète naturellement. Assurez-vous que la transition avec le contour reste imperceptible.",
-    benefits: ["Effet poudré", "Aspect naturel", "Technique pixellisée"],
+    description: "Reproduce the sweeping motion on the lower lip while maintaining perfect skin tension. Since this area is often fleshier, work with regularity to saturate the pigment at the heart of the lip, where light naturally reflects. Ensure the transition with the contour remains imperceptible.",
+    benefits: ["Powdery effect", "Natural appearance", "Pixelized technique"],
   },
   {
     id: 16,
-    title: "Finalisation de la Lèvre Inférieure",
+    title: "Lower Lip Finalization",
     duration: "32s",
     image: "/images/step 16.png",
     video: "https://player.vimeo.com/video/1155571237?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
-    description: "Terminez le remplissage en travaillant le côté opposé de la lèvre inférieure. Votre priorité est la symétrie de la saturation : la couleur doit être aussi dense à gauche qu'à droite. Veillez à fondre parfaitement la jonction au centre pour qu'aucune démarcation ne soit visible une fois la cicatrisation terminée.",
-    benefits: ["Couleur homogène", "Saturation uniforme", "Mouvement constant"],
+    description: "Complete the filling by working on the opposite side of the lower lip. Your priority is saturation symmetry: the color must be as dense on the left as on the right. Ensure you perfectly blend the junction at the center so no demarcation is visible once healing is complete.",
+    benefits: ["Homogeneous color", "Uniform saturation", "Constant movement"],
   },
   {
     id: 17,
-    title: "Le Masque de Pigment (The Soak)",
+    title: "The Pigment Mask (The Soak)",
     duration: "22s",
     image: "/images/step 17.png",
     video: "https://player.vimeo.com/video/1155571060?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
-    description: "Pour clore la séance, appliquez une couche généreuse de pigment pur sur l'ensemble de la bouche à l'aide d'une micro-brosse. Laissez poser ce masque quelques minutes. Bien que le tatouage soit terminé, cette étape permet de saturer les dernières micro-ouvertures de la peau, d'apaiser les tissus et de préparer les lèvres pour la \"révélation\" finale lors du nettoyage ultime.",
-    benefits: ["Zones délicates", "Angle adapté", "Résultat net"],
+    description: "To conclude the session, apply a generous layer of pure pigment over the entire mouth using a micro-brush. Leave this mask on for a few minutes. Although the tattoo is complete, this step helps saturate the last micro-openings of the skin, soothe the tissues, and prepare the lips for the final \"reveal\" during the ultimate cleaning.",
+    benefits: ["Delicate areas", "Adapted angle", "Sharp result"],
   },
   {
     id: 18,
-    title: "Mise sous Occlusion",
+    title: "Occlusion Application",
     duration: "10s",
     image: "/images/step 18.png",
     video: "https://player.vimeo.com/video/1155571133?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
-    description: "Recouvrez immédiatement le masque de pigment avec un film plastique étirable. Lissez bien le film pour chasser les bulles d'air et assurer un contact hermétique. Cette occlusion empêche le pigment de sécher et favorise son absorption finale par les tissus (effet de macération contrôlée) durant le temps de pause.",
-    benefits: ["Couches multiples", "Profondeur créée", "Richesse de couleur"],
+    description: "Immediately cover the pigment mask with a stretchable plastic film. Smooth the film well to eliminate air bubbles and ensure airtight contact. This occlusion prevents the pigment from drying and promotes its final absorption by the tissues (controlled maceration effect) during the setting time.",
+    benefits: ["Multiple layers", "Depth created", "Color richness"],
   },
   {
     id: 19,
-    title: "Le Nettoyage Final et la Révélation",
+    title: "Final Cleaning and Reveal",
     duration: "40s",
     image: "/images/step 19.png",
     video: "https://player.vimeo.com/video/1155571291?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
-    description: "Retirez le film protecteur et procédez au nettoyage final pour enlever tout le surplus de pigment laissé par le masque. C'est l'étape de la \"révélation\" : essuyez sans crainte pour découvrir la couleur réelle et la saturation de votre travail. Terminez en appliquant une touche de baume ou de gloss apaisant pour hydrater les lèvres instantanément et sublimer le résultat pour la photographie.",
-    benefits: ["Pénétration optimisée", "Rétention maximale", "Fixation du pigment"],
+    description: "Remove the protective film and proceed with final cleaning to remove all excess pigment left by the mask. This is the \"reveal\" step: wipe without fear to discover the real color and saturation of your work. Finish by applying a touch of soothing balm or gloss to instantly hydrate the lips and enhance the result for photography.",
+    benefits: ["Optimized penetration", "Maximum retention", "Pigment fixation"],
   },
   {
     id: 20,
-    title: "Inspection et Nettoyage de Finition",
+    title: "Inspection and Final Cleaning",
     duration: "22s",
     image: "/images/step 20.png",
     video: "https://player.vimeo.com/video/1155590411?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
-    description: "Une fois le surplus retiré, passez une lingette propre pour parfaire le nettoyage du contour de la bouche et de la peau environnante. C'est l'étape de vérification ultime : la zone doit être nette, sans bavure, prête pour la découverte par la cliente et la prise de vue photographique.",
-    benefits: ["Couleur révélée", "Saturation finale", "Résultat uniforme"],
+    description: "Once the excess is removed, use a clean wipe to perfect the cleaning of the mouth contour and surrounding skin. This is the ultimate verification step: the area should be clean, without smudges, ready for the client's discovery and photographic capture.",
+    benefits: ["Color revealed", "Final saturation", "Uniform result"],
   },
 ]
 
@@ -370,16 +370,16 @@ export default function LipBlushTreatmentGuide() {
         className="flex gap-2 md:gap-3 mt-6 flex-wrap justify-center"
       >
         <div className="bg-green-500 text-white px-3 py-1 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-bold">
-          20/20 Étapes
+          20/20 Steps
         </div>
         <div className="bg-blue-500 text-white px-3 py-1 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-bold">
           20 Minutes
         </div>
         <div className="bg-purple-500 text-white px-3 py-1 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-bold">
-          Certifié
+          Certified
         </div>
         <div className="bg-pink-500 text-white px-3 py-1 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-bold">
-          Professionnel
+          Professional
         </div>
       </motion.div>
 
