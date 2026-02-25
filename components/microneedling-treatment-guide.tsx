@@ -20,12 +20,12 @@ interface TreatmentStep {
 const treatmentSteps: TreatmentStep[] = [
   {
     id: 1,
-    title: "Marquage des colonnes philtrales",
+    title: "Marking the philtral columns",
     duration: "48s",
     image: "/images/step 1.png",
     video: "https://player.vimeo.com/video/1155571172?h=7f2b0a4b63&badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&controls=0",
-    description: "Avec votre crayon blanc et des mains gantées, commencez par tracer les lignes du philtrum pour aligner le centre du visage. Définissez ensuite les pointes de l'arc de Cupidon et reliez les contours jusqu'aux commissures externes. Terminez par la courbe de la lèvre inférieure : cet enchaînement précis vous permet de verrouiller une forme parfaitement symétrique avant de passer à la pigmentation.",
-    benefits: ["Points de repère centraux", "Symétrie garantie", "Base précise"],
+    description: "With your white pencil and gloved hands, start by tracing the lines of the philtrum to align the center of the face. Then define the tips of the Cupid's bow and connect the contours to the outer corners. Finish with the curve of the lower lip: this precise sequence allows you to lock in a perfectly symmetrical shape before moving on to pigmentation.",
+    benefits: ["Central reference points", "Guaranteed symmetry", "Precise foundation"],
   },
   {
     id: 2,
@@ -350,16 +350,16 @@ export default function LipBlushTreatmentGuide() {
         transition={{ duration: 0.6, delay: 0.4 }}
         className="text-center"
       >
-        <h2 className="text-3xl md:text-4xl font-bold font-saeada text-blue-900 mb-3">Félicitations !</h2>
+        <h2 className="text-3xl md:text-4xl font-bold font-saeada text-blue-900 mb-3">Congratulations!</h2>
         <p className="text-lg md:text-xl font-quicksand text-blue-800 mb-2">
-          Formation Lip Blush terminée avec succès
+          Lip Blush training completed successfully
         </p>
-        <p className="text-base font-quicksand text-blue-700 mb-4">Toutes les étapes ont été complétées</p>
+        <p className="text-base font-quicksand text-blue-700 mb-4">All steps have been completed</p>
 
         <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 mx-4">
-          <p className="text-sm font-quicksand text-gray-600 mb-1">Formation réalisée avec</p>
-          <h3 className="text-xl font-bold font-saeada text-brand-gradient">Guide Professionnel Lip Blush</h3>
-          <p className="text-xs font-quicksand text-gray-500 mt-1">Méthode certifiée • Mannequin silicone</p>
+          <p className="text-sm font-quicksand text-gray-600 mb-1">Training carried out with</p>
+          <h3 className="text-xl font-bold font-saeada text-brand-gradient">Professional Lip Blush Guide</h3>
+          <p className="text-xs font-quicksand text-gray-500 mt-1">Certified method • Silicone model</p>
         </div>
       </motion.div>
 
@@ -393,7 +393,7 @@ export default function LipBlushTreatmentGuide() {
           onClick={handleReset}
           className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg font-bold rounded-full"
         >
-          Recommencer
+          Restart
         </Button>
       </motion.div>
     </motion.div>
@@ -416,7 +416,7 @@ export default function LipBlushTreatmentGuide() {
                 className="bg-white/20 hover:bg-white/30 text-white backdrop-blur-sm border border-white/20 px-4 py-2 rounded-full text-xs md:text-sm font-bold"
               >
                 <ChevronLeft size={20} />
-                Retour au guide
+                Back to guide
               </Button>
             </div>
 
@@ -443,16 +443,16 @@ export default function LipBlushTreatmentGuide() {
           <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-0">
             <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
               <h1 className="text-xl sm:text-2xl font-bold font-saeada text-gray-800">
-                Entraînement Lip Blush
+                Lip Blush Training
               </h1>
               <div className="flex flex-wrap gap-2 text-sm font-quicksand text-gray-600">
-                <span>Pratique sur mannequin silicone</span>
+                <span>Practice on silicone model</span>
                 <span className="hidden sm:inline">•</span>
-                <span>20 étapes essentielles</span>
+                <span>20 essential steps</span>
                 <span className="hidden sm:inline">•</span>
-                <span>Technique professionnelle</span>
+                <span>Professional technique</span>
                 <span className="hidden sm:inline">•</span>
-                <span>Dermographe requis</span>
+                <span>Dermograph required</span>
               </div>
             </div>
             <div className="flex items-center gap-3 sm:gap-4">
@@ -477,10 +477,10 @@ export default function LipBlushTreatmentGuide() {
                 </div>
                 <div className="ml-3">
                   <p className="text-sm font-medium text-amber-800">
-                    <strong>Mannequin silicone avec lèvres requis</strong> - À acheter séparément
+                    <strong>Silicone model with lips required</strong> - To be purchased separately
                   </p>
                   <p className="text-xs text-amber-700 mt-1">
-                    Cette formation lip blush nécessite un mannequin silicone avec zone labiale pour la pratique avant de travailler sur de vrais clients.
+                    This lip blush training requires a silicone model with lip area for practice before working on real clients.
                   </p>
                 </div>
               </div>
@@ -491,7 +491,7 @@ export default function LipBlushTreatmentGuide() {
         {/* Progress Bar Section */}
         <div className="mt-4">
           <div className="flex items-center justify-between mb-2">
-            <span className="text-sm font-quicksand text-gray-600">Progression de la formation Lip Blush</span>
+            <span className="text-sm font-quicksand text-gray-600">Lip Blush training progress</span>
             <span className="text-sm font-bold font-quicksand text-gray-800">
               {Math.round(((currentStep + 1) / treatmentSteps.length) * 100)}%
             </span>
@@ -522,7 +522,7 @@ export default function LipBlushTreatmentGuide() {
               </Button>
 
               <span className="text-sm font-semibold font-saeada text-gray-700 px-2 hidden sm:block">
-                Étape {currentStep + 1} sur {treatmentSteps.length}
+                Step {currentStep + 1} of {treatmentSteps.length}
               </span>
 
               <Button
